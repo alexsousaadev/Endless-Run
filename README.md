@@ -37,11 +37,11 @@ Essa técnica (semelhante a um object pooling) mantém o uso de memória constan
  - Unity 2022.3 LTS (2022.3.14f1)
  
 ▶️ Como executar:
- 1 - Clone o repositório:
+1 - Clone o repositório:
      "bash
      git clone https://github.com/alexsousaadev/Endless-Run.git"
- 2 - No Unity Hub, instale o editor 2022.3.14f1 (ou outra versão 2022.3 LTS) e clique em Add project from disk para abrir a pasta do projeto.
- 3 - Abra a cena principal em Assets/Scenes/ <!-- confirme o nome da cena --> e clique em Play.
+2 - No Unity Hub, instale o editor 2022.3.14f1 (ou outra versão 2022.3 LTS) e clique em Add project from disk para abrir a pasta do projeto.
+3 - Abra a cena principal em Assets/Scenes/ <!-- confirme o nome da cena --> e clique em Play.
 
 🚧 Próximos passos
 Efeitos sonoros e trilha
