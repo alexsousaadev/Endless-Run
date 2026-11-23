@@ -1,12 +1,53 @@
-# Endless-Run - Protótipo
+Endless Run 🏃‍♂️
 
-Projeto de jogo estilo Endless Runnner, inspirado em jogos como Subway Surfers, desenvolvido
+Protótipo de jogo 3D no estilo endless runner, inspirado no Subway Surfers, desenvolvido em C# com Unity 2022.3 LTS (2022.3.14f1).
 
-Desenvolvimento de um jogo do estilo Endless Run, similar ao jogo Subway Surfers, bom esse jogo eu tentei fazer um clone de subway surfers de um modo mais básico, eu realizei a criação de 3 plataformas diferentes com alguns objetos diferentes em cada uma delas e fiz com que se tornasse uma corrida infinita, reciclando as plataformas toda vez que eu chego na segunda plataforma a primeira é descartada e colocada a frente da terceira, e assim por diante foi feito um calculo com angulo para que uma plataforma não sobrepusesse a outra, o 4 código que eu realizei estão comentados de forma simples e fácil, caso o senhor queira conferir depois das plataformas, eu coloquei um personagem animado com, duas animações a de correr e a de quando colidisse com algo ele caisse como se tivesse "morrido" e assim aparecer uma tela de GameOver, depois disso acrescentei alguns objetos ao cenário para se caso o jogador colidisse desse o game over, logo após isso eu coloquei diversas moedas para o jogador coletar e uma contagem para os metros que o personagem percosse e a quantidade de moedas obtidas durante o percurso, o personagem pode andar para direita esquerda e pular, como é um jogo no estilo endless run, não existe a possibilidade de voltar para trás, o que eu pretendo colocar futuramente é um som para o jogo, e acrescentar algumas animações, e outros objetos durante a corrida, enfim espero que o senhor goste.
+Mostrar imagem
 
-VÍDEO DA GAMEPLAY DO GAME:
-https://youtu.be/Kq0jPZdDg2Q
+▶️ Assista ao gameplay no YouTube
 
+🎮 Sobre o projeto
+
+O jogador corre sem parar por uma pista gerada de forma contínua, desviando de obstáculos e coletando moedas. O objetivo do projeto foi praticar os fundamentos de desenvolvimento de jogos: geração procedural de cenário, física, colisões, animação e interface.
+
+✨ Funcionalidades
+Pista infinita com reciclagem de plataformas (detalhes abaixo)
+Personagem animado: animação de corrida e de queda ao colidir
+Obstáculos que encerram a partida e exibem a tela de Game Over
+Moedas colecionáveis
+HUD com distância percorrida e moedas coletadas
+Controles: mover para a esquerda, para a direita e pular (o personagem não anda para trás)
+⚙️ Como funciona a pista infinita
+
+Em vez de criar e destruir cenário o tempo todo, o jogo usa três plataformas que se revezam:
+
+Cada plataforma carrega um conjunto diferente de obstáculos e moedas.
+Quando o jogador chega à segunda plataforma, a primeira (já fora da tela) é reposicionada à frente da terceira.
+Um cálculo baseado em ângulo garante que as plataformas não se sobreponham ao serem reposicionadas.
+
+Essa técnica (semelhante a um object pooling) mantém o uso de memória constante, por mais longa que seja a partida.
+
+🖼️ Capturas de tela
+<p align="center"> <img src="https://github.com/OverComeTm/Endless-Run/assets/70177226/9008ea7e-b1af-4d2d-8dfd-5c77ca55c580" width="45%" /> <img src="https://github.com/OverComeTm/Endless-Run/assets/70177226/5edc724b-dba7-4e0a-a1f5-f13bc565e738" width="45%" /> <img src="https://github.com/OverComeTm/Endless-Run/assets/70177226/b567358b-43cd-484d-8745-25098cca0d3e" width="45%" /> <img src="https://github.com/OverComeTm/Endless-Run/assets/70177226/dbb7b302-e1d5-4880-aa7a-a62900c43855" width="45%" /> <img src="https://github.com/OverComeTm/Endless-Run/assets/70177226/753cba76-699c-4d10-9de0-09ad5cfa965a" width="45%" /> <img src="https://github.com/OverComeTm/Endless-Run/assets/70177226/6e37f967-bf05-4f3a-aee8-99609b2c7e7e" width="45%" /> <img src="https://github.com/OverComeTm/Endless-Run/assets/70177226/9b12ead5-068d-4bf8-a5f6-80dd8998e020" width="45%" /> <img src="https://github.com/OverComeTm/Endless-Run/assets/70177226/0ebe4d59-586f-46db-9987-a1316b2ea34c" width="45%" /> <img src="https://github.com/OverComeTm/Endless-Run/assets/70177226/89b9ca4a-8446-4346-ac46-b507d23ec5c2" width="45%" /> </p>
+🛠️ Tecnologias
+C#
+Unity 2022.3 LTS (2022.3.14f1)
+▶️ Como executar
+Clone o repositório:
+bash
+git clone https://github.com/alexsousaadev/Endless-Run.git
+No Unity Hub, instale o editor 2022.3.14f1 (ou outra versão 2022.3 LTS) e clique em Add project from disk para abrir a pasta do projeto.
+Abra a cena principal em Assets/Scenes/ <!-- confirme o nome da cena --> e clique em Play.
+🚧 Próximos passos
+Efeitos sonoros e trilha
+Mais animações (pulo, desvio lateral)
+Mais variedade de obstáculos e objetos na pista
+Aumento gradual de velocidade e dificuldade
+👤 Autor
+
+Alex Sousa: GitHub · LinkedIn
+
+Projeto desenvolvido durante a graduação em Engenharia de Software (FACEF, Franca/SP).
 
 
 ![image8](https://github.com/OverComeTm/Endless-Run/assets/70177226/89b9ca4a-8446-4346-ac46-b507d23ec5c2)
