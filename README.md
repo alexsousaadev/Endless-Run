@@ -4,7 +4,8 @@ Protótipo de jogo 3D no estilo endless runner, inspirado no Subway Surfers, des
 
 Mostrar imagem
 
-▶️ Assista ao gameplay no YouTube
+▶️ Assista ao gameplay no YouTube:
+LINK: https://youtu.be/Kq0jPZdDg2Q?si=cHABr86EE8GrtS5D
 
 🎮 Sobre o projeto:
 
@@ -37,9 +38,8 @@ Essa técnica (semelhante a um object pooling) mantém o uso de memória constan
  
 ▶️ Como executar:
  1 - Clone o repositório:
-   "bash
-    git clone https://github.com/alexsousaadev/Endless-Run.git"
-
+     "bash
+     git clone https://github.com/alexsousaadev/Endless-Run.git"
  2 - No Unity Hub, instale o editor 2022.3.14f1 (ou outra versão 2022.3 LTS) e clique em Add project from disk para abrir a pasta do projeto.
  3 - Abra a cena principal em Assets/Scenes/ <!-- confirme o nome da cena --> e clique em Play.
 
