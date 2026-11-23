@@ -42,6 +42,7 @@ Essa técnica (semelhante a um *object pooling*) mantém o uso de memória const
   <img src="https://github.com/OverComeTm/Endless-Run/assets/70177226/0ebe4d59-586f-46db-9987-a1316b2ea34c" width="45%" />
   <img src="https://github.com/OverComeTm/Endless-Run/assets/70177226/89b9ca4a-8446-4346-ac46-b507d23ec5c2" width="45%" />
 </p>
+
 ## 🛠️ Tecnologias
  
 - **C#**
@@ -62,7 +63,7 @@ git clone https://github.com/alexsousaadev/Endless-Run.git
 - Aumento gradual de velocidade e dificuldade
 ## 👤 Autor
  
-**Alex Sousa**: [GitHub](https://github.com/alexsousaadev) · [LinkedIn](COLE_AQUI_SEU_LINKEDIN)
+**Alex Sousa**: [GitHub](https://github.com/alexsousaadev) · [LinkedIn](https://www.linkedin.com/in/alex-sousa-83b7241b5/)
  
 Projeto desenvolvido durante a graduação em Engenharia de Software (FACEF, Franca/SP).
  
